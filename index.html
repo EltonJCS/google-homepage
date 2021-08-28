@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/googlelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Google</title>
 </head>
 <body>
-    <img src="/images/googlelogo_color_272x92dp.png" alt="Logo do Google">
-    <input class="barra-pesquisa" type="text" autofocus="" title="Pesquisar" value="">
+    <nav class="nav">
+        <a class="nav-link" href="#">Gmail</a>
+        <a class="nav-link" href="#">Imagens</a>
+        <a class="nav-apps" href="#" title="Google Apps">
+            <button class="button-apps"></button>
+        </a>
+        <a class="nav-login" href="#">
+            <button class="button-login">Fazer login</button></a>
+    </nav>
+
+    <main class="search">
+        <img src="/images/google.png" alt="Google">
+        <div class="searchbar">
+            <a class="search-icon" href="#"></a>
+            <input class="search-input" type="text" autofocus="" title="Pesquisar">
+            <a class="keyboard-icon" href="#" title="Ferramentas de inserção de texto"></a>
+        </div>
+        <div class="search-buttons">
+            <a href="#"><button class="search-button">Pesquisa Google</button></a>
+            <a href="#"><button class="search-button">Estou com sorte</button></a>
+        </div>
+        <div>
+            <p>Disponibilizado pelo Google em: <a href="#">English</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-location">
+            <p>Brasil</p>
+        </div>
+        <div class="footer-links">
+            <div>
+                <a class="footer-link" href="#">Sobre</a>
+                <a class="footer-link" href="#">Publicidade</a>
+                <a class="footer-link" href="#">Negócios</a>
+                <a class="footer-link" href="#">Como funciona a Pesquisa</a>
+            </div>
+            <div>
+                <a class="footer-link" href="#">Privacidade</a>
+                <a class="footer-link" href="#">Termos</a>
+                <a class="footer-link" href="#">Configurações</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
